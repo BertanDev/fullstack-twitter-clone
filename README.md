@@ -44,8 +44,28 @@ npm run dev
   - [x] DELETE ```/api/follow``` remove um seguidor de um usuário
   
   - [x] PATCH ```/api/edit``` edita o perfil do usuário
+
+  - [x] Todo fluxo de autenticação é feito utilizando next-auth
   
-  
+## 🔱 Ferramentas utilizadas
+
+  - NextJS
+  - Typescript
+  - Next-auth
+  - Prisma
+  - Axios
+  - Bcrypt
+  - Date-fns
+  - React-dropzone
+  - React-hot-toast
+  - React Icons
+  - React Spinners
+  - Swr
+  - Tailwindcss
+  - Zustand
+  - MongoDB
+
+## Telas da aplicação
   
  
   
