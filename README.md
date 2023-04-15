@@ -67,6 +67,32 @@ npm run dev
 
 ## Telas da aplicação
   
- 
+### Tela inicial, usuário não logado
+![inicial](https://user-images.githubusercontent.com/72395637/232176666-aba3494f-c474-4769-b6c0-e5081d8236d6.jpg)
+
+## Modal de login
+![loginModal](https://user-images.githubusercontent.com/72395637/232176714-550e7f3f-9adb-4f8c-9123-a756555066bf.png)
+
+## Modal de registro
+![register](https://user-images.githubusercontent.com/72395637/232176780-5ffe8e73-a492-4768-99ef-aef6b3e4c66c.jpg)
+
+## Tela inicial, usuário Logado
+![homeLogged](https://user-images.githubusercontent.com/72395637/232177206-fa0bcb41-35f4-4e2b-83f6-cbdbfead6766.jpg)
+
+## Tela seu perfil
+![myProfile](https://user-images.githubusercontent.com/72395637/232177248-2c219e7c-4b14-4747-a00e-601bf2de34a8.jpg)
+
+## Tela perfil outro usuário
+![otherProfile](https://user-images.githubusercontent.com/72395637/232177256-7e8e6280-b798-4a6e-a2e1-bd0253d9f70e.jpg)
+
+## Modal para editar perfil
+![modalEdit](https://user-images.githubusercontent.com/72395637/232177280-3b8bf938-de03-4c2f-80d7-ad6a2280e62c.jpg)
+
+## Tela para comentar em um post
+![comment](https://user-images.githubusercontent.com/72395637/232177314-ecf6f440-bfae-4eff-a5c4-fce6fce55692.jpg)
+
+### Tela de notificações
+![notifications](https://user-images.githubusercontent.com/72395637/232177326-9097927c-5c70-4232-a4d0-fd73cf4f1aa0.jpg)
+
   
 
