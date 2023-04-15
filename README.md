@@ -1,38 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🐦 Twitter Fullstack Clone 🐦
 
-## Getting Started
+Aplicação criada durante curso do canal gringo [Code With Antonio](https://www.youtube.com/@codewithantonio), onde criamos um clone do Twitter, tanto front-end quanto back-end utilizando o Framework NextJS
 
-First, run the development server:
+## ▶️ Testar aplicação 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+> **Note**                
+> Para rodar a aplicação em sua máquina local, é necessário criar uma database no serviço [MongoDB Atlas](https://cloud.mongodb.com/)
+
+Crie seu arquivo .env com as seguinte informações:
+```
+DATABASE_URL="MONGO URL CONNECTION"
+NEXTAUTH_JWT_SECRET="NEXT_AUTH_JWT_SECRET"
+NEXTAUTH_SECRET="NEXT_AUTH_SECRET"
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Com o projeto no seu computador, rode na raíz:
+```
+npm install
+```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+em seguinda:
+```
+npm run dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 💠 Rotas API
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+  - [x] POST ```/api/register``` cria um novo usuário
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
